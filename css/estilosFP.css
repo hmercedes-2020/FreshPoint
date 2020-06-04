@@ -1,0 +1,291 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-may-2020, 11:10:59
+    Author     : Haydee
+*/
+
+
+body {
+ font-family: 'Balsamiq Sans', cursive;
+ background-image: url("imagenes/agua-po.jpg");
+/** background-color: #3F51B5;**/
+ left: 15px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+/* linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)),**/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
+}
+
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);  /**rosado **/
+}
+
+.text-primary {
+  color: #4CAF50 !important;  /**verde**/
+}
+
+.bg-primary {
+  background-color: #e6a756 !important;   /**soft orange**//
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 3rem;
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.bg-faded {
+ 
+   background-color: rgba(230, 167, 86, 0.7);   /** soft orange**/
+   
+}
+.bf-faded-blanco{
+     background-color: rgba(255, 255, 255, 0.85); /**blanco con opacidad**/
+}
+
+#mainNav {
+ /** background-color: rgba(47, 23, 15, 0.9);  cafe oscuro  #4CAF50**/
+ background-color: rgba(30, 69, 31, 0.8);  /**verde**/
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#mainNav .navbar-brand {
+  color: #e6a756;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #e6a756;      /*soft orange**/
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);  /**blanco**/
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #e6a756;                     /*soft orange**/
+  }
+}
+
+
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 50%;
+    float: right;
+  }
+  .intro .intro-text {
+    left: 80px;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  
+  .intro .intro-text:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(230, 167, 86, 0.85);
+  
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
+.btn-primary {
+  background-color: #4CAF50 !important;  /**verde**/
+  color:#fff;
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);    /*soft orange**/
+  /*background-color : rgba(30, 69, 31, 0.8);**/
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.cta-img{
+    height:50px;
+    float: none;
+}
+
+.footer {
+  background-color: rgba(47, 23, 15, 0.9); 
+}
+
+.cta .cta-adentro {
+    position: relative;
+    margin: 0.5rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-adentro:before {
+  border-radius: 0.5rem;
+   content: '';
+    position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+
+.list-hours {
+  font-size: 0.9rem;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.list-hours .list-hours-item.today {
+  font-weight: bold;
+  color: #e6a756;
+}
+
+@media (min-width: 992px) {
+  .list-hours {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* Center the image and position the close button */
+.imgContainer {
+  text-align: center;
+  /*
+  margin: 24px 0 12px 0;
+ **/
+}
+
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+  <!-- custom styling for all icons -->
+  i .fas,
+  i.fab {
+    border: 1px solid red;
+    color: limegreen;
+  }
+
+  <!-- custom styling for specific icons -->
+  .fa-user {
+    color: salmon;
+  }
+
+ 
+  .fa-facebook {
+    color: rgb(59, 91, 152);
+  }
