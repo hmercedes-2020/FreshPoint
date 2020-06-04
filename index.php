@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> FRESHPOINT</title>
+            <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel="icon" href="favicon.ico"/>  -->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Librerias/bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+    
+    <link href="css/estilosFP.css" rel="stylesheet"/>
+    
+        
+    </head>
+    <body >
+        <div class="container-fluid mb-2">
+          <div class="row">
+         
+              <div class= "col-xl-9 mx-auto text-center">
+                <h1 class="site-heading text-center text-white d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">AGUA PURIFICADA Y SALUDABLE</span>
+                <span class="site-heading-lower">DISTRIBUIDORA  FRESH POINT</span>
+                </h1> 
+              </div>
+       
+        </div>
+        </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4 mt-5" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">FRESH POINT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.php">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="#">Productos</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="registrarCliente.html">Abre tu Cuenta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!--***  portada baja ***-->
+ <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="css/imagenes/ImagenBotellones.jpeg" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Agua Fresca</span>
+            <span class="section-heading-lower">Vale la Pena Beber!</span>
+          </h2>
+          <p class="mb-3">Cada vaso de agua esta hecho con agua artesanal, cristalina y purificada. Una vez que la pruebes, nuestra agua sera como la bendiciono que hara cada dia tu mejor dia- Te lo garantizamos!
+          </p>
+          <div class="intro-button mx-auto">
+            <a class="btn btn-primary btn-xl" href="#">Visitanos hoy mismo!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--******** de nosotros **********-->
+  
+<section class="page-section  cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner text-center rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Nuestra Promesa</span>
+              <span class="section-heading-lower">Para ti</span>
+            </h2>
+            <p class="mb-3">Cuando llegues a nuestra tienda al empezar el dia, 
+                nos dedicaremos a atenderte amistosamente, en un ambiente cordial y, mas aùn, la mejor agua con los ingredientes de mejor calidad. Si no estas conforme, por favor dejanos saber y lo haremos MEJOR!</p>
+            <img class="rounded" src="css/imagenes/EquipoFreshPoint.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ********************* PIE DE PAGINA *****************-->
+  <footer class="footer text-faded text-center py-5">
+ 
+       <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 col-md-6">
+                  <h4> Direccion</h4>
+                  <h3> Urb SAn Jacinto, Centro Comercial San Jacinto, PB </h3>
+                  <h3> Detras de Panaderia Pan Tostao</h3>   
+                  <h3> Maracay Edo Aragua</h3>
+              </div>
+              <div class="col-lg-6 text-center">
+                  <h3>Queremos tener mas Amigos!!</h3>
+                  <h4>Contàctanos</h4>
+                  
+                  <i class="fab fa-twitter-square"></i>
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-instagram-square"></i>
+                  
+              </div>
+          </div> 
+        
+      <p class="m-0 small">Copyright &copy; Your Website 2019</p>
+        </div>
+  </footer>
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <!-- Bootstrap core JavaScript -->
+  
+    <script src="Librerias/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="LibreriascriptFP.js"></script>
+    
+  </body>  
+</html>
